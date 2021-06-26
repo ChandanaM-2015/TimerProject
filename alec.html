@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Set Up Alaram</title>
+	<link rel="stylesheet" type="text/css" href="alec.css">
+</head>
+<body>
+	<header>
+		<h1>Set Up Alaram</h1>
+	</header>
+	<div class="setatime">
+	<div class="currentTime" id="crntime">
+	</div>
+	<div class="selectatime">
+		<p id="select-time">Select Time :- 
+		<select class="hour" id="syshour">
+		</select>:
+		<select class="minutes" id="sysminutes">
+		</select>
+		<!--<input type="text" name="minutes" placeholder="Minutes">-->
+		<!--<input type="text" name="am/pm" placeholder="AM/PM">-->
+		<select class ="amorpm">
+			<option value="AM">AM</option>
+			<option value="PM">PM</option>
+		</select>
+	</p>
+	</div>
+	<div class="message">
+		<p label="setmsg">Message :-
+		<input class="setamsg" id="message" type="text" name="input" placeholder="Enter a message">
+		</p>
+	</div>
+	<!--<div class="button">-->
+		<div>
+		<button class="myButton" id="save"  onclick="save()">Save</button>
+	</div>
+	<div>
+		<button class="psButton" id="pause" onclick="pause()">Stop</button>
+	</div>
+</div>
+<script type="text/javascript" src="alec.js"></script>
+</body>
+</html>

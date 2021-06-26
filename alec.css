@@ -1,0 +1,101 @@
+body{
+	background-color:#85929E;
+}
+header{
+	background-color: white;
+	padding: 15px;
+}
+header >h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+.setatime{
+	margin: 15px auto;
+	border: 3px solid black;
+	border-radius: 9px;/*white box radius #FF9C66*/
+	text-align: center;
+	background-color:#D6EAF8;
+	width: 435px;
+	height: 435px;
+	color: black;
+	font-size: 27px ;
+	position: relative;
+	padding: 15px 20px;/*text is in center 15px stands for top and bottom , 20px stands for left and right*/
+	font-family: Asap, sans-serif;
+}
+.currentTime{
+	text-align: center;
+	padding-top: 40px;
+	padding-right: 65px;
+}
+.selectatime{
+	text-align: center;
+	padding: 25px;
+}
+.hour{
+	color: black;
+	font-size: 19px ;
+	position: relative;
+}
+.minutes{
+	color: black;
+	font-size: 19px ;
+	position: relative;
+}
+.amorpm{
+	color: black;
+	font-size: 19px ;
+	position: relative;
+}
+.message{
+	text-align: center;
+	padding-left:28px;
+	padding-bottom:38px;
+}
+.setamsg{
+	width: 200px;
+	height:50px;
+	font-size: 20px ;
+	font-family: Asap, sans-serif;
+}
+.button{
+	padding:40px;
+}
+#save{
+	float: left;
+	margin: 2px auto;
+	border: 3px solid blue;
+	border-radius: 4px;
+	text-align: center;
+	margin-left:16px;
+	width: 80px;
+	height: 40px;
+	color: black;
+	font-size: 20px ;
+	position: relative;
+	font-family: Asap, sans-serif;
+	display:inline-block;
+	transition:all 0.7s ease;
+}
+#save:hover{
+	cursor: pointer;
+}
+#pause{
+	float: right;
+	margin: 2px auto;
+	border: 3px solid blue;
+	border-radius: 4px;
+	text-align: center;
+	margin-right:16px;
+	width: 80px;
+	height: 40px;
+	color: black;
+	font-size: 20px ;
+	position: relative;
+	font-family: Asap, sans-serif;
+	display:inline-block;
+	transition:all 0.7s ease;
+}
+#pause:hover{
+	cursor: pointer;
+}
